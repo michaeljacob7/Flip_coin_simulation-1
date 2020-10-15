@@ -20,7 +20,7 @@ done
 
 if [ $h -eq 10 ]
 then
-	echo "Head wins"
+	echo "Head wins: "$h"times"
 else
-	echo "Tail wins"
+	echo "Tail wins"$t"times"
 fi
